@@ -1,0 +1,25 @@
+{
+  "name": "swiftyedit/deepl",
+  "type": "swiftyedit-plugin",
+  "description": "Automatic translations of pages and products with DeepL",
+  "homepage": "https://swiftyedit.org",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "SwiftyEdit Developer",
+      "role": "Developer",
+      "homepage": "https://github.com/SwiftyEdit/SwiftyEdit"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "platform": {
+      "php": "8.1"
+    },
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "deeplcom/deepl-php": "^1.6.0"
+  }
+}

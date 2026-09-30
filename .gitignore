@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.idea/
+.vscode/
+*.iml
+
+# Runtime state - never part of the repository. data/deepl.sqlite3 holds the
+# DeepL API key (secret!), the settings and the translation log.
+# /data/ itself must stay (with .gitkeep) so PDO has a directory to write into.
+/data/*
+!/data/.gitkeep
+
+# Legacy key file of plugin versions < 2.0.0 - imported into the database
+# and deleted by the installer/updater, must never be committed.
+/deepl_auth.php
+
+# Release build artifacts (attach to GitHub Releases instead of committing)
+/*.zip
+
+# Logs
+*.log
