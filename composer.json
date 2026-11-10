@@ -17,9 +17,13 @@
     "platform": {
       "php": "8.1"
     },
-    "vendor-dir": "vendor"
+    "vendor-dir": "vendor",
+    "allow-plugins": {
+      "php-http/discovery": false
+    }
   },
   "require": {
-    "deeplcom/deepl-php": "^1.6.0"
+    "deeplcom/deepl-php": "^1.6.0",
+    "guzzlehttp/guzzle": "^7.9"
   }
 }

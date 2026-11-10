@@ -33,7 +33,10 @@ type - the target languages are now chosen once under Settings.
 
 ## Development
 
-The DeepL PHP library is bundled in `vendor/` (installed via Composer, `composer.json`).
+The DeepL PHP library is bundled in `vendor/` (installed via Composer, `composer.json`),
+together with Guzzle 7 as its PSR-18 HTTP client / PSR-17 factories. deepl-php finds them
+via `php-http/discovery`; the SwiftyEdit core no longer ships Guzzle (since build 26-0233),
+so the plugin has to bring its own.
 Update it with:
 
 ```

@@ -3,14 +3,20 @@
     "id": "deepl",
     "name": "DeepL",
     "type": "plugin",
-    "version": "2.0.0",
-    "build": 1,
+    "version": "2.0.1",
+    "build": 2,
     "author": "SwiftyEdit Developer Team",
     "description": "Automatic translations of pages and products with DeepL - translate a page or product into all linked language versions right when you save it.",
     "database": "deepl.sqlite3",
     "update_url": "https://raw.githubusercontent.com/SwiftyEdit/deepl/main/info.json"
   },
   "versions": [
+    {
+      "version": "2.0.1",
+      "build": 2,
+      "requires_build": "26-0215",
+      "download_url": "https://github.com/SwiftyEdit/deepl/releases/download/v2.0.1/deepl-2.0.1.zip"
+    },
     {
       "version": "2.0.0",
       "build": 1,
